@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Hello World" 
+
+for file in *; do wc -l $file; done
+
+echo "Length of all files has been calculated"
+
+echo "DONE"
